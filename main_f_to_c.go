@@ -8,6 +8,8 @@ func main(){
 	fmt.Scanf("%f", &f)
 
 	result := (f - 32) * 5 / 9
-
+	if result > 32 {
+		fmt.Println("Hace calor")
+	}
 	fmt.Println("El resultado en Celcius es:", result)
 }
