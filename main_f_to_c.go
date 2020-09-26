@@ -9,5 +9,5 @@ func main(){
 
 	result := (f - 32) * 5 / 9
 
-	fmt.Println("El resultado en Celcius es:", result)
+	//fmt.Println("El resultado en Celcius es:", result)
 }
